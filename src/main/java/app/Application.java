@@ -2,8 +2,10 @@ package app;
 
 import app.config.AppConfig;
 import app.model.AnimalsCage;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 
 public class Application {
 
@@ -14,8 +16,6 @@ public class Application {
             AnimalsCage bean =
                     applicationContext.getBean(AnimalsCage.class);
             bean.whatAnimalSay();
-            //asdasdasd
         }
     }
-
 }
